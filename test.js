@@ -32,7 +32,7 @@ describe('test attendance list',()=>{
 
     let list;
     beforeAll(()=>{
-         list= new attendancelist();
+         list= new attendancelist('sanyi');
     });
 
     test('list return value ',()=>{
@@ -40,6 +40,14 @@ describe('test attendance list',()=>{
         
     });
 
+    
+    test('list return value ',()=>{
+        
+        expect(list.includes('sanyi')).toBeTruthy();
+        
+    });
+
+    
 
 
 
