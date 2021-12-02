@@ -1,14 +1,13 @@
 export class attendancelist{
 
-  list =new Array();
-    constructor(list){
-     this.list=list;
+  
+    constructor(){
+     this.list=new Array();
     }
-   constructor(){}
     add(name){
-    this.list.push(name);
-        return this.list
+        this.list.push(name);
     }
+    
     place(name,index){
         list[index]=name
     }
