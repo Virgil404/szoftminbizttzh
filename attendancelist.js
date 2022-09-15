@@ -17,6 +17,7 @@ export class attendancelist{
     getlist(){
 
         return this.list
+        //ksfdjlasdéfsdlkéafjkladésfjkléasdfjéklsadlékjfasdékl
     }
 }
 
